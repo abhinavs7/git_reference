@@ -20,10 +20,10 @@ header {
 	margin-bottom: 5em;
 }
 
-#commands img {
+#commands img, #branches img {
 	max-width: 50%;
 }
-#commands h2 {
+#commands h2, #branches h2 {
 	margin: 1.5em 0 1.5em 0;
 }
 

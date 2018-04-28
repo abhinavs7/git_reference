@@ -17,7 +17,7 @@
 		</header>
 		<section id="commands">
 			<h2>git init</h2>
-			<p>Set up the inital git tracking folder.</p>
+			<p>Set up the initial git tracking folder.</p>
 			<img src="images/git_01.png">
 			<h2>git add</h2>
 			<p>Add file to staging area.</p>
@@ -52,6 +52,31 @@
 			<img src="images/git_11.png">
 			<p>Moving to a directory is the same. The second argument has the directory as well as the file name.</p>
 			<img src="images/git_12.png">
+			<h2>Ignoring files.</h2>
+			<p>Create a .gitignore file in the root of the directory.<br>These are a set of rules that git can use to follow to ignore certain files.</p>
+			<p>Simple instructions are words or basic regular expressions.(* ? [aeiou] [0-9])</p>
+			<p>You can also negate expressions with !<br>*.php, would be ignore all php.<br>!index.php would not ignore.</p>
+			<p>ignore all files with a trailing slash assets/videos/</p>
+			<p>comment with a #.</p>
+			<p>It's best to create the file from the command line. Using nano.<br>It will create a new file inside the current directory.</p>
+			<img src="images/git_13.png">
+			<img src="images/git_15.png">
+			<p>Now we want to include that file in git.</p>
+			<img src="images/git_14.png">
+			<h4>Files that should be ignored.</h4>
+			<ul>
+				<li>compiled source code.</li>
+				<li>packages and compressed files.</li>
+				<li>logs and databases.</li>
+				<li>operating system generated files</li>
+				<li>user-uploaded assets(images, PDFs, videos)</li>
+			</ul>
+		</section>
+		<section id="branches">
+			<h1>Branches</h1>
+			<h2>git rename file.</h2>
+			<p>If you rename the file inside the directory folder.</p>
+			<img src="images/git_09.png">
 		</section>
 	</div>
     <script type="text/javascript" src="main.js"></script>
