@@ -1,0 +1,8 @@
+images/
+.DS_Store
+assets/
+.zip
+.gz
+.log
+log/*.log.[0-9]
+
